@@ -4,9 +4,9 @@ require File.expand_path('../lib/config_man/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Cainã Costa"]
   gem.email         = ["cainan.costa@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Simplifies repetitive work of parsing configuration files}
+  gem.summary       = %q{Simplifies repetitive work of parsing configuration files}
+  gem.homepage      = "https://github.com/sryche/config_man"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
